@@ -52,7 +52,8 @@
         android:layout_height="wrap_content"
         android:background="@drawable/round_button"
         android:src="@android:drawable/ic_media_play"
-        app:layout_constraintTop_toBottomOf="@id/genre"/>
+        app:layout_constraintTop_toBottomOf="@id/genre"
+        app:layout_constraintStart_toStartOf="parent"/>
 
     <ImageButton
         android:id="@+id/pauseButton"
@@ -62,7 +63,8 @@
         tools:visibility="visible"
         android:background="@drawable/round_button"
         android:src="@android:drawable/ic_media_pause"
-        app:layout_constraintTop_toBottomOf="@id/genre"/>
+        app:layout_constraintTop_toBottomOf="@id/genre"
+        app:layout_constraintStart_toStartOf="parent"/>
 
     <androidx.constraintlayout.widget.Barrier
         android:id="@+id/bar1"
